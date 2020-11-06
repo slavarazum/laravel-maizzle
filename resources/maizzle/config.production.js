@@ -1,7 +1,8 @@
 module.exports = {
   build: {
     destination: {
-      path: 'build_production',
+      path: '../views/emails/dist',
+      extension: 'blade.php',
     },
   },
 

@@ -294,7 +294,8 @@ module.exports = {
 
     build: {
         destination: {
-            path: 'build_local',
+            path: '../views/emails/dist',
+            extension: 'blade.php',
         },
         layout: 'layouts/default.njk',
         templates: {
